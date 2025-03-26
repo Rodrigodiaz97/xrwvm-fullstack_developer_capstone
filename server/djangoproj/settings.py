@@ -28,8 +28,9 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS = ['localhost', 'prodlist.xj562h09w5.us-south.codeengine.appdomain.cloud']
+CSRF_TRUSTED_ORIGINS = ['https://prodlist.xj562h09w5.us-south.codeengine.appdomain.cloud']
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
